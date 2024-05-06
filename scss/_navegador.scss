@@ -10,6 +10,9 @@
    .logo .imagen-logo{
     width: 135px;
     height: 135px;
+    &:hover{
+        transform: scale(1.1);
+    }
    }
 
    .navegador-links{
@@ -55,6 +58,9 @@
     border-radius: 10px;
     width: 5%;
     height: 5%;
+    &:hover{
+        transform: scale(1.1);
+    }
    }
   
    @media(max-width:576px){

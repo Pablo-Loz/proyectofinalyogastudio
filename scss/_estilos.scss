@@ -23,6 +23,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:center;
     font-style: italic;
+    color: rgb(100, 89, 89);
   }
   
   .estilo-tarjetas{
@@ -43,6 +44,7 @@
     flex-direction: column;
     gap: 20px;
     margin-bottom: 20px;
+
   }
   
   .tarjeta-estilo-titulo{
@@ -56,6 +58,10 @@
     width: 100%;
     height: 150px;
     object-fit: cover;
+    overflow: hidden;
+    &:hover{
+      transform: scale(1.2);
+    }
   }
   
   .tarjeta-descripcion{
