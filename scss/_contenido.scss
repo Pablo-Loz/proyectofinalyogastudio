@@ -1,0 +1,52 @@
+/* CONTENIDO */
+
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .tarjeta{
+    width: 320px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tarjeta-img{
+    display: flex;
+  }
+  
+  .tarjeta-titulo{
+    font-size: 20px;
+    color: rgb(120, 111, 111);
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+  }
+  
+  .boton-primario{
+    width: 80px;
+    height: 40px;
+    background-color:grey;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    bottom: -20px;
+    right: 10px;
+    transition: 0.5s;
+  }
+  
+  .boton-primario:hover{
+    background-color:rgb(63, 55, 55);
+    width: 110px;
+    transition: 0.5s;
+  
+  }
+  
