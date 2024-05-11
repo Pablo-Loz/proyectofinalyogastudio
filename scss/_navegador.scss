@@ -103,6 +103,47 @@
         right: 0;
     }
    }
+
+   @media (max-width:430px){
+    .encabezado-navegador{
+        position: relative;
+    }
+
+    
+    .navegador{
+        position: absolute;
+        right: -390px;
+        top: 0;
+        z-index: 2;
+        &:hover{
+            right: 0;
+        }
+    }
+
+    .navegador-links{
+        flex-direction: column;
+        width: 320px;
+        background-color: burlywood;
+        box-shadow: -4px 3px 4px #a5a5a575;
+        height: 100vh;
+        padding-top: 150px;
+        border-radius: 5px;
+        gap: 15px;
+        align-items: center;
+        
+    }
+
+    .icono-menu{
+        display: block;
+        color: white;
+        font-size: 40px;
+        margin: 20px;
+        z-index: 1;
+    }
+    .icono-menu:hover + .navegador{
+        right: 0;
+    }
+   }
   
    @media(max-width:380px){
     .imagen-logo{
